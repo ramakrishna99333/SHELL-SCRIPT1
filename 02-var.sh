@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE =$(date)
+DATE=$(date)
 echo "executing the script on ${DATE}"
 PERSON1=$1
 PERSON2=$2
