@@ -1,12 +1,18 @@
 #!/bin/bash
 
+# Check if two arguments are provided
+if [ $# -ne 2 ]; then
+  echo "Usage: $0 <number1> <number2>"
+  exit 1
+fi
+
+# Assign arguments to variables
 NUMBER1=$1
 NUMBER2=$2
-SUM=$(($NUMBER1+$NUMBER2))
-echo "sum of number is equal to ${SUM}"
 
-echo "How many args passed:: $#"
+# Perform the addition and store the result
+SUM=$(($NUMBER1 + $NUMBER2))
 
-echo "All args passed:: $@"
+# Output the result
+echo "The sum of $NUMBER1 and $NUMBER2 is $SUM."
 
-echo "Script name:: $0"
