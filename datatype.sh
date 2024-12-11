@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NUM1=$1
-NUM2=$2
-SUM=$(($NUM1)+($NUM2))
+NUMBER1=$1
+NUMBER2=$2
+SUM=$(($NUMBER1+$NUMBER2))
 echo "sum of number is equal to ${SUM}"
 
 echo "How many args passed:: $#"
