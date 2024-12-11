@@ -2,8 +2,8 @@
 
 NUM1=$1
 NUM2=$2
-sum=$(($NUM1+$NUM2))
-echo "sum of number is equal to ${sum}"
+SUM=$(($NUM1)+($NUM2))
+echo "sum of number is equal to ${SUM}"
 
 echo "How many args passed:: $#"
 
