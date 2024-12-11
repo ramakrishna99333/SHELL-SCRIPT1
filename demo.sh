@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "this is ram"
+
+# this is comment
+
+echo "Hello Shell script"
